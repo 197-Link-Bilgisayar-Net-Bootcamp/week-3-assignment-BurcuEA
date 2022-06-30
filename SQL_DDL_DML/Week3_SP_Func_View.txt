@@ -1,0 +1,30 @@
+create procedure sp_get_products
+as
+begin
+select * from Products
+end
+
+exec sp_get_products 
+
+------------------
+
+alter function fc_product_full()
+RETURNS TABLE
+as
+
+RETURN(
+select p.Name,p.Stock,c.Name 'CategoryName', pf.Color from Products p
+join Categories c  on p.CategoryId=c.Id
+join ProductFeatures pf on p.Id = pf.Id
+)
+
+
+--------
+
+create view vw_product_full
+As
+select p.Name,p.Stock,c.Name 'CategoryName', pf.Color from Products p
+inner join Categories c  on p.CategoryId=c.Id
+inner join ProductFeatures pf on p.Id = pf.Id
+
+---------

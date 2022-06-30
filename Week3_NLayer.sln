@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31912.275
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NLayer.Service", "NLayer.Service\NLayer.Service.csproj", "{CC7A2467-30C7-4F6B-981E-91D46819D8E6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NLayer.Core", "NLayer.Data\NLayer.Core.csproj", "{7B58D50F-71DC-471E-A98A-3590E26F65A1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NLayer.Repository", "NLayer.Repository\NLayer.Repository.csproj", "{FA37AA9E-9288-499A-8346-28F2E051706B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NLayer.API", "NLayer.API\NLayer.API.csproj", "{97A79075-914B-4EC5-B294-67295ED0C5DD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SQL_DDL_DML", "SQL_DDL_DML", "{11A43F2A-2A88-4689-A21A-A540FB9BE2B2}"
+	ProjectSection(SolutionItems) = preProject
+		SQL_DDL_DML\Week3_DDL.txt = SQL_DDL_DML\Week3_DDL.txt
+		SQL_DDL_DML\Week3_DML.txt = SQL_DDL_DML\Week3_DML.txt
+		SQL_DDL_DML\Week3_SP_Func_View.txt = SQL_DDL_DML\Week3_SP_Func_View.txt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CC7A2467-30C7-4F6B-981E-91D46819D8E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC7A2467-30C7-4F6B-981E-91D46819D8E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC7A2467-30C7-4F6B-981E-91D46819D8E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC7A2467-30C7-4F6B-981E-91D46819D8E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B58D50F-71DC-471E-A98A-3590E26F65A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B58D50F-71DC-471E-A98A-3590E26F65A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B58D50F-71DC-471E-A98A-3590E26F65A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B58D50F-71DC-471E-A98A-3590E26F65A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA37AA9E-9288-499A-8346-28F2E051706B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA37AA9E-9288-499A-8346-28F2E051706B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA37AA9E-9288-499A-8346-28F2E051706B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA37AA9E-9288-499A-8346-28F2E051706B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97A79075-914B-4EC5-B294-67295ED0C5DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97A79075-914B-4EC5-B294-67295ED0C5DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97A79075-914B-4EC5-B294-67295ED0C5DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97A79075-914B-4EC5-B294-67295ED0C5DD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A339179F-969A-4061-8AB9-A41F74B0B74F}
+	EndGlobalSection
+EndGlobal

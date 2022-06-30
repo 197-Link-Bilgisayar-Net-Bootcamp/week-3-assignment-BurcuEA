@@ -1,0 +1,25 @@
+--Create Database OrnekDB
+
+--CREATE TABLE Products (
+--    Id int IDENTITY(1,1) NOT NULL,
+--    NName nvarchar(100) NOT NULL,
+--	Stock int NOT NULL,
+--	Price decimal NOT NULL,
+--	SecondName nvarchar(100) NULL   
+--)
+
+--CREATE TABLE Categories (
+--    Id int IDENTITY(1,1) NOT NULL,
+--    NName nvarchar(100) NOT NULL  
+--)
+
+
+--ALTER TABLE Categories
+--ADD Discount decimal NOT NULL
+
+--DROP TABLE Categories;
+
+--TRUNCATE TABLE Categories;
+
+
+--ALTER TABLE Persons  COLUMN FirstName TO  NNName

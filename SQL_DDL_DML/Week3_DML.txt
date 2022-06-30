@@ -1,0 +1,11 @@
+--INSERT INTO Products (NName, Stock, Price,SecondName)
+--VALUES ('PPP 3',100, 202,'XPXP')
+
+--UPDATE Products
+--SET NName ='NNNN', Price=500
+--WHERE Id=1
+
+--DELETE FROM Products WHERE Products=2
+
+--Select * From Products
+
